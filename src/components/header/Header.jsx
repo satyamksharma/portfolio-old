@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./header.css";
+import Darkmode from "../darkmode/Darkmode";
 
 const Header = () => {
     // ----------For Toggle Menu--------
@@ -71,12 +72,14 @@ const Header = () => {
                         onClick={ShowMenuHandler}
                     />
                 </div>
+
                 <div
                     className='nav__toggle'
                     onClick={ShowMenuHandler}
                 >
                     <i className='uil uil-apps'></i>
                 </div>
+                <Darkmode />
             </nav>
         </header>
     );
