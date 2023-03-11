@@ -186,6 +186,20 @@ img {
     margin-top: 1.25rem;
 }
 
+/*=============== LOADER ===============*/
+.loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--body-color);
+    z-index: var(--z-modal);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /*=============== BREAKPOINTS ===============*/
 /* For large screen devices */
 @media screen and (max-width: 992px) {
