@@ -35,13 +35,13 @@ const Darkmode = () => {
     return (
         <>
             <div>
-                <label class='switch'>
+                <label className='switch'>
                     <input
                         className={theme === "dark" ? clickedClass : ""}
                         type='checkbox'
                         onClick={(e) => switchTheme(e)}
                     />
-                    <span class='slider'></span>
+                    <span className='slider'></span>
                 </label>
             </div>
         </>

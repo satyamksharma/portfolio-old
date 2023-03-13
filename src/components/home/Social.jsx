@@ -9,7 +9,7 @@ const Social = () => {
                 target='_blank'
                 rel='noreferrer'
             >
-                <i class='uil uil-instagram'></i>
+                <i className='uil uil-instagram'></i>
             </a>
             <a
                 href='https://www.linkedin.com/in/satyamksharma/'
@@ -17,7 +17,7 @@ const Social = () => {
                 target='_blank'
                 rel='noreferrer'
             >
-                <i class='uil uil-linkedin'></i>
+                <i className='uil uil-linkedin'></i>
             </a>
             <a
                 href='https://github.com/satyamksharma'
@@ -25,7 +25,7 @@ const Social = () => {
                 target='_blank'
                 rel='noreferrer'
             >
-                <i class='uil uil-github-alt'></i>
+                <i className='uil uil-github-alt'></i>
             </a>
         </div>
     );
