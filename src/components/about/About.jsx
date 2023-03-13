@@ -13,18 +13,27 @@ const About = () => {
             <h2 className='section__title'>About Me</h2>
             <span className='section__subtitle'>My Introduction</span>
             <div className='about__container container grid'>
-                <img
-                    src={AboutImg}
-                    alt='aboutImg'
-                    className='about__img'
-                />
+                <div className='about__img__container'>
+                    <div className='box__background'></div>
+                    <div className='about__img_box'>
+                        <img
+                            src={AboutImg}
+                            alt='aboutImg'
+                            className='about__img'
+                        />
+                    </div>
+                </div>
                 <div className='about__data'>
                     <Info />
                     <p className='about__description'>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus sit
-                        voluptatum eius, quidem est sint. Eveniet vitae pariatur explicabo ducimus
-                        qui, consectetur molestiae sit neque fugit quos! Consectetur, similique
-                        quibusdam.
+                        Hi there, I'm Satyam Kumar, student at PES University, Bangalore pursuing my
+                        B.Tech in Computer Science.
+                    </p>
+                    <p className='about__description'>
+                        I'm Inquisitive, energetic computer science student bent towards exploring
+                        new technologies and skills, with a good foundation in math, logic, and
+                        coding. Seeking to enhance my skills and contribute to the field of
+                        Technology and Computer Science.
                     </p>
 
                     <a

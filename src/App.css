@@ -1,5 +1,5 @@
 /*=============== GOOGLE FONTS ===============*/
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@400;500;600&display=swap");
 
 /*=============== VARIABLES CSS ===============*/
 :root {
@@ -13,6 +13,7 @@
     --body-color: rgba(250, 250, 250, 1);
     --body-color-dark: rgb(34, 34, 34);
     --container-color: #fff;
+    --heading-color: #00b87b;
 
     /*========== Font and typography ==========*/
     --body-font: "Poppins", sans-serif;
@@ -91,16 +92,16 @@ body.light {
     --text-color: rgb(78, 78, 78);
     --body-color: rgba(250, 250, 250, 1);
     --container-color: #fff;
+    --heading-color: #00b87b;
 }
 
 body.dark {
     --title-color: rgb(198, 198, 198);
     --title-color-dark: rgb(255, 255, 255);
     --text-color: rgb(209, 209, 209);
-
     --body-color: rgb(34, 34, 34);
-
     --container-color: #000000;
+    --heading-color: #8c00f7;
 }
 
 h1,

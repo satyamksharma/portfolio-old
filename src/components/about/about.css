@@ -8,6 +8,31 @@
     width: 350px;
     border-radius: 1.5rem;
     justify-self: center;
+    z-index: 50;
+}
+
+.about__img__container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.box__background {
+    position: absolute;
+    width: 350px;
+    height: 450px;
+    background: var(--title-color);
+    bottom: 2rem;
+    right: 5rem;
+    border-radius: 1.5rem 1.5rem 0 1.5rem;
+    z-index: 1;
+}
+
+.about__img_box {
+    margin: 0;
+    padding: 0;
+    width: 350px;
+    z-index: 50;
 }
 
 .about__info {
@@ -55,6 +80,17 @@
     .about__img {
         width: 220px;
     }
+
+    .box__background {
+        display: none;
+    }
+
+    .about__img_box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
     .about__box {
         padding: 0.75rem 0.5rem;
     }

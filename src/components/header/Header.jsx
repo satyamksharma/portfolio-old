@@ -17,7 +17,7 @@ const Header = () => {
                     href='index.html'
                     className='nav__logo'
                 >
-                    Satyam
+                    Satyam <span className='title__second'>Kumar</span>
                 </a>
                 <div className={Toggle ? "nav__menu show-menu" : "nav__menu"}>
                     <ul className='nav__list grid'>

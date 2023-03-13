@@ -21,6 +21,11 @@
     font-weight: var(--font-medium);
 }
 
+.nav__logo {
+    font-family: "Pacifico", cursive;
+    font-size: var(--h1-font-size);
+}
+
 .nav__list {
     display: flex;
     column-gap: 2rem;
@@ -91,7 +96,8 @@
 
     .nav__close {
         position: absolute;
-        right: 50%;
+        right: 45%;
+        align-items: center;
         bottom: 0.5rem;
         font-size: 1.5rem;
         cursor: pointer;
@@ -112,6 +118,9 @@
     .nav__toggle {
         display: block;
     }
+    .title__second {
+        display: none;
+    }
 }
 
 /* For small screen devices */
@@ -122,5 +131,8 @@
 
     .nav__list {
         column-gap: 0;
+    }
+    .title__second {
+        display: none;
     }
 }
