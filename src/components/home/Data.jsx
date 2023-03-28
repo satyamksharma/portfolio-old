@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import "./data.css";
 
 const text1 = "Hi there,";
 const text2 = "I'm Satyam";
@@ -94,6 +95,15 @@ const Data = () => {
             </div>
             <div className='connect__btn'>
                 <a
+                    class='fancy'
+                    href='#contact'
+                >
+                    <span class='top-key'></span>
+                    <span class='button__text'>Say Hello</span>
+                    <span class='bottom-key-1'></span>
+                    <span class='bottom-key-2'></span>
+                </a>
+                {/* <a
                     href='#contact'
                     className='button button--flex'
                 >
@@ -115,7 +125,7 @@ const Data = () => {
                             fill='var(--container-color)'
                         ></path>
                     </svg>
-                </a>
+                </a> */}
             </div>
         </div>
     );

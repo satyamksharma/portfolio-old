@@ -35,6 +35,16 @@
     z-index: 50;
 }
 
+.about__img__container:hover .box__background {
+    bottom: 1.5rem;
+    right: 4.275rem;
+    transition: all 0.2s ease-in-out;
+}
+.about__img__container:hover .about__img_box .about__img {
+    transform: translate(0, -0.5rem);
+    transition: all 0.2s ease-in-out;
+}
+
 .about__info {
     grid-template-columns: repeat(3, 140px);
     gap: 0.5rem;

@@ -8,6 +8,12 @@ const Darkmode = () => {
     const darkTheme = "dark";
     let theme;
 
+    const [isChecked, setIsChecked] = useState(true);
+
+    const handleCheckboxChange = () => {
+        setIsChecked(!isChecked);
+    };
+
     const switchTheme = (event) => {
         if (theme === darkTheme) {
             body.classList.replace(darkTheme, lightTheme);
@@ -40,6 +46,8 @@ const Darkmode = () => {
                         className={theme === "dark" ? clickedClass : ""}
                         type='checkbox'
                         onClick={(e) => switchTheme(e)}
+                        checked={isChecked}
+                        onChange={handleCheckboxChange}
                     />
                     <span className='slider'></span>
                 </label>
