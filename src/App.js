@@ -1,47 +1,34 @@
-import React, { useState, useEffect } from "react";
+// import React, { useState, useEffect } from "react";
 import "./App.css";
-import PuffLoader from "react-spinners/PuffLoader";
+// import PuffLoader from "react-spinners/PuffLoader";
 import Header from "./components/header/Header";
 import Home from "./components/home/Home";
 import About from "./components/about/About";
 import Skills from "./components/skills/Skills";
 import Qualification from "./components/qualification/Qualification";
+import Portfolio from "./components/portfolio/Portfolio";
 import Contact from "./components/contact/Contact";
 
 const App = () => {
-    const [loading, setLoading] = useState(false);
+    /* const [loading, setLoading] = useState(false);
 
     useEffect(() => {
         setLoading(true);
         setTimeout(() => {
             setLoading(false);
-        }, 3000);
-    }, []);
+        }, 300);
+    }, []); */
     return (
         <>
-            {loading ? (
-                <div className='loader'>
-                    {" "}
-                    <PuffLoader
-                        color={"#62CDFF"}
-                        loading={loading}
-                        size={70}
-                        aria-label='Loading Spinner'
-                        data-testid='loader'
-                    />
-                </div>
-            ) : (
-                <>
-                    <Header />
-                    <main className='main'>
-                        <Home />
-                        <About />
-                        <Skills />
-                        <Qualification />
-                        <Contact />
-                    </main>
-                </>
-            )}
+            <Header />
+            <main className='main'>
+                <Home />
+                <About />
+                <Skills />
+                <Qualification />
+                <Portfolio />
+                <Contact />
+            </main>
         </>
     );
 };

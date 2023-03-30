@@ -20,6 +20,7 @@ const About = () => {
                             src={AboutImg}
                             alt='aboutImg'
                             className='about__img'
+                            loading='lazy'
                         />
                     </div>
                 </div>

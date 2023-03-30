@@ -92,7 +92,7 @@ body.light {
     --text-color: rgb(78, 78, 78);
     --body-color: rgba(250, 250, 250, 1);
     --container-color: #fff;
-    --heading-color: #00b87b;
+    --heading-color: #09f8a9;
 }
 
 body.dark {
@@ -101,7 +101,7 @@ body.dark {
     --text-color: rgb(209, 209, 209);
     --body-color: rgb(34, 34, 34);
     --container-color: #000000;
-    --heading-color: #8c00f7;
+    --heading-color: #b456fb;
 }
 
 h1,
