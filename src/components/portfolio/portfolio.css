@@ -40,7 +40,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    box-shadow: 0 0 30px -10px var(--title-color-dark);
+    box-shadow: 0 0 30px -10px var(--title-color);
     overflow: hidden;
 }
 
@@ -48,7 +48,7 @@
     position: absolute;
     height: 100%;
     width: calc(100% + 1px);
-    background-color: black;
+    background-color: var(--blur-color);
     opacity: 0;
     transition: opacity 0.15s ease-in;
 }
@@ -75,12 +75,10 @@
 }
 
 .proj__link {
-    height: 30px;
-    width: 30px;
+    height: 35px;
+    width: 35px;
     border-radius: 100%;
-    background-color: rgb(44, 19, 19);
     display: inline-block;
-    padding: 5px;
     margin-right: 25px;
     transform: translateY(220px);
     position: relative;
@@ -94,9 +92,11 @@
 }
 
 .proj__info {
-    font-family: Inconsolata;
+    position: relative;
+    font-family: var(--body-font);
     padding-left: 20px;
     transform: translateY(250px);
+    z-index: 999;
 
     transition: transform 1s cubic-bezier(0.31, 1.21, 0.64, 1.02);
 }
@@ -106,17 +106,20 @@
 }
 
 .proj__name {
-    font-size: 1.5rem;
+    font-size: 1.35rem;
     font-weight: bolder;
     padding-top: 5px;
     position: relative;
-    bottom: 35px;
+    bottom: 50px;
+    color: var(--title-color-dark);
 }
 
 .proj__desc {
     margin-top: 5px;
+    padding-right: 1rem;
     position: relative;
-    bottom: 35px;
+    bottom: 60px;
+    color: var(--title-color-dark);
 }
 
 .proj__link.github {
@@ -126,13 +129,18 @@
 .proj__link.website {
     transition-delay: 0.06s;
 }
-
-.proj__link.repo {
-    transition-delay: 0.12s;
+.proj__tech {
+    display: flex;
 }
 
-.repo:hover {
-    transform: scale(1.25);
+.proj__tech img {
+    width: 2rem;
+    margin-left: 4px;
+    height: auto;
+    position: relative;
+    bottom: 55px;
+    border-radius: 45%;
+    background: black;
 }
 
 /*=============== BREAKPOINTS ===============*/
@@ -140,6 +148,8 @@
 @media screen and (max-width: 992px) {
     .portfolio__container {
         grid-template-columns: repeat(2, 1fr);
+        column-gap: 0;
+        row-gap: 2rem;
     }
 
     .portfolio__img {
