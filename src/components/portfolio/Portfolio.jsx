@@ -9,8 +9,8 @@ const Portfolio = () => {
             type: "web",
             img: "https://github.com/satyamksharma/codeclause/blob/master/Task3_MusicApp/Screenshot%20from%202023-03-31%2016-17-50.png?raw=true",
             description: "An online Music streaming web app",
-            ghubLink: "",
-            websiteLink: "",
+            ghubLink: "https://github.com/satyamksharma/codeclause/tree/master/Task3_MusicApp",
+            websiteLink: "https://my-vibe.vercel.app/",
             tech: [
                 "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
                 "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
