@@ -110,7 +110,7 @@
     font-weight: bolder;
     padding-top: 5px;
     position: relative;
-    bottom: 50px;
+    bottom: 40px;
     color: var(--title-color-dark);
 }
 
@@ -118,8 +118,9 @@
     margin-top: 5px;
     padding-right: 1rem;
     position: relative;
-    bottom: 60px;
+    bottom: 45px;
     color: var(--title-color-dark);
+    line-height: 0.85;
 }
 
 .proj__link.github {
@@ -134,11 +135,11 @@
 }
 
 .proj__tech img {
-    width: 2rem;
+    width: 1.75rem;
     margin-left: 4px;
     height: auto;
     position: relative;
-    bottom: 55px;
+    bottom: 35px;
     border-radius: 45%;
     background: black;
 }
