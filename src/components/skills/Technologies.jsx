@@ -2,7 +2,10 @@ import React from "react";
 
 const Technologies = () => {
     return (
-        <div className='skills__content'>
+        <div
+            className='skills__content'
+            data-aos='zoom-in-left'
+        >
             <h3 className='skills__title'>Technologies</h3>
 
             <div className='skills__box'>

@@ -17,17 +17,6 @@
     position: relative;
 }
 
-.box__background {
-    position: absolute;
-    width: 350px;
-    height: 450px;
-    background: var(--title-color);
-    bottom: 2rem;
-    right: 5rem;
-    border-radius: 1.5rem 1.5rem 0 1.5rem;
-    z-index: 1;
-}
-
 .about__img_box {
     margin: 0;
     padding: 0;
@@ -35,11 +24,6 @@
     z-index: 50;
 }
 
-.about__img__container:hover .box__background {
-    bottom: 1.5rem;
-    right: 4.275rem;
-    transition: all 0.2s ease-in-out;
-}
 .about__img__container:hover .about__img_box .about__img {
     transform: translate(0, -0.5rem);
     transition: all 0.2s ease-in-out;

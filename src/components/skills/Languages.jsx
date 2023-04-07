@@ -2,7 +2,10 @@ import React from "react";
 
 const Languages = () => {
     return (
-        <div className='skills__content'>
+        <div
+            className='skills__content'
+            data-aos='zoom-in-right'
+        >
             <h3 className='skills__title'>Languages</h3>
 
             <div className='skills__box'>

@@ -76,9 +76,22 @@ const Portfolio = () => {
             className='portfolio section'
             id='portfolio'
         >
-            <h2 className='section__title'>Portfolio</h2>
-            <span className='section__subtitle'>My recent work</span>
-            <div className='portfolio__nav'>
+            <h2
+                className='section__title'
+                data-aos='fade-right'
+            >
+                Portfolio
+            </h2>
+            <span
+                className='section__subtitle'
+                data-aos='fade-right'
+            >
+                My recent work
+            </span>
+            <div
+                className='portfolio__nav'
+                data-aos='zoom-in'
+            >
                 <div className='portfolio__nav-item'>
                     <a
                         href='#'
@@ -106,6 +119,7 @@ const Portfolio = () => {
                         class='proj__card'
                         style={{ backgroundImage: `url(${d.img})` }}
                         loading='lazy'
+                        data-aos='zoom-in'
                     >
                         <div class='project__content'>
                             <div class='proj__links'>

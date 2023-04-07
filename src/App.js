@@ -1,6 +1,6 @@
-// import React, { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import "./App.css";
-// import PuffLoader from "react-spinners/PuffLoader";
+import Loader from "./components/loader/Loader";
 import Header from "./components/header/Header";
 import Home from "./components/home/Home";
 import About from "./components/about/About";
@@ -10,14 +10,6 @@ import Portfolio from "./components/portfolio/Portfolio";
 import Contact from "./components/contact/Contact";
 
 const App = () => {
-    /* const [loading, setLoading] = useState(false);
-
-    useEffect(() => {
-        setLoading(true);
-        setTimeout(() => {
-            setLoading(false);
-        }, 300);
-    }, []); */
     return (
         <>
             <Header />

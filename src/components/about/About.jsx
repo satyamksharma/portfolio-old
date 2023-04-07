@@ -10,21 +10,34 @@ const About = () => {
             className='about section'
             id='about'
         >
-            <h2 className='section__title'>About Me</h2>
-            <span className='section__subtitle'>My Introduction</span>
+            <h2
+                className='section__title'
+                data-aos='fade-right'
+            >
+                About Me
+            </h2>
+            <span
+                className='section__subtitle'
+                data-aos='fade-right'
+            >
+                My Introduction
+            </span>
             <div className='about__container container grid'>
                 <div className='about__img__container'>
-                    <div className='box__background'></div>
                     <div className='about__img_box'>
                         <img
                             src={AboutImg}
                             alt='aboutImg'
                             className='about__img'
                             loading='lazy'
+                            data-aos='zoom-in-left'
                         />
                     </div>
                 </div>
-                <div className='about__data'>
+                <div
+                    className='about__data'
+                    data-aos='zoom-in-up'
+                >
                     <Info />
                     <p className='about__description'>
                         Hi there, I'm Satyam Kumar, student at PES University, Bangalore pursuing my

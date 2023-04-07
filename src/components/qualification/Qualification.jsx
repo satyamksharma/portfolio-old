@@ -9,8 +9,18 @@ const Qualification = () => {
     };
     return (
         <section className='qualification section'>
-            <h2 className='section__title'>Qualification</h2>
-            <span className='section__subtitle'>My personal journey</span>
+            <h2
+                className='section__title'
+                data-aos='fade-right'
+            >
+                Qualification
+            </h2>
+            <span
+                className='section__subtitle'
+                data-aos='fade-right'
+            >
+                My personal journey
+            </span>
 
             <div className='qualification__container container'>
                 <div className='qualification__tabs'>
@@ -47,7 +57,7 @@ const Qualification = () => {
                         }
                     >
                         <div className='qualification__data'>
-                            <div>
+                            <div data-aos='zoom-out-right'>
                                 <h3 className='qualification__title'>B.Tech(CSE)</h3>
                                 <span className='qualification__subtitle'>PES University</span>
                                 <div className='qualification__calendar'>
@@ -66,7 +76,7 @@ const Qualification = () => {
                                 <span className='qualification__line'></span>
                             </div>
 
-                            <div>
+                            <div data-aos='zoom-out-left'>
                                 <h3 className='qualification__title'>Intermediate</h3>
                                 <span className='qualification__subtitle'>
                                     Jawahar Vidya Mandir
@@ -78,7 +88,7 @@ const Qualification = () => {
                         </div>
 
                         <div className='qualification__data'>
-                            <div>
+                            <div data-aos='zoom-out-right'>
                                 <h3 className='qualification__title'>10th Boards</h3>
                                 <span className='qualification__subtitle'>ST. Thomas School</span>
                                 <div className='qualification__calendar'>
@@ -100,7 +110,7 @@ const Qualification = () => {
                         }
                     >
                         <div className='qualification__data'>
-                            <div>
+                            <div data-aos='zoom-out-right'>
                                 <h3 className='qualification__title'>Web Development Intern</h3>
                                 <span className='qualification__subtitle'>Code Clause</span>
                                 <div className='qualification__calendar'>
@@ -119,7 +129,7 @@ const Qualification = () => {
                                 <span className='qualification__line'></span>
                             </div>
 
-                            <div>
+                            <div data-aos='zoom-out-left'>
                                 <h3 className='qualification__title'>Web Developer</h3>
                                 <span className='qualification__subtitle'>
                                     The Sparks Foundation
@@ -131,7 +141,7 @@ const Qualification = () => {
                         </div>
 
                         <div className='qualification__data'>
-                            <div>
+                            <div data-aos='zoom-out-right'>
                                 <h3 className='qualification__title'>Web Dev Member</h3>
                                 <span className='qualification__subtitle'>Aikya PES</span>
                                 <div className='qualification__calendar'>
@@ -149,7 +159,7 @@ const Qualification = () => {
                                 <span className='qualification__rounder'></span>
                             </div>
 
-                            <div>
+                            <div data-aos='zoom-out-left'>
                                 <h3 className='qualification__title'>Web Dev Member</h3>
                                 <span className='qualification__subtitle'>Shunya Club</span>
                                 <div className='qualification__calendar'>

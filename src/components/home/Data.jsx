@@ -88,12 +88,18 @@ const Data = () => {
                         </div>
                     </section>
                 </div>
-                <p className='home__description'>
+                <p
+                    className='home__description'
+                    data-aos='zoom-in-up'
+                >
                     I'm a CS student and a Developer based in Bengaluru, and I'm passionate and
                     dedicated to my work.
                 </p>
             </div>
-            <div className='connect__btn'>
+            <div
+                className='connect__btn'
+                data-aos='zoom-in-right'
+            >
                 <a
                     class='fancy'
                     href='#contact'
