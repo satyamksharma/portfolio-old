@@ -4,7 +4,7 @@ const Languages = () => {
     return (
         <div
             className='skills__content'
-            data-aos='zoom-in-right'
+            data-aos='zoom-in-up'
         >
             <h3 className='skills__title'>Languages</h3>
 

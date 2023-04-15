@@ -12,13 +12,13 @@ const About = () => {
         >
             <h2
                 className='section__title'
-                data-aos='fade-right'
+                data-aos='fade-up'
             >
                 About Me
             </h2>
             <span
                 className='section__subtitle'
-                data-aos='fade-right'
+                data-aos='fade-up'
             >
                 My Introduction
             </span>
@@ -30,7 +30,7 @@ const About = () => {
                             alt='aboutImg'
                             className='about__img'
                             loading='lazy'
-                            data-aos='zoom-in-left'
+                            data-aos='zoom-in'
                         />
                     </div>
                 </div>

@@ -90,7 +90,7 @@ const Data = () => {
                 </div>
                 <p
                     className='home__description'
-                    data-aos='zoom-in-up'
+                    data-aos='zoom-in'
                 >
                     I'm a CS student and a Developer based in Bengaluru, and I'm passionate and
                     dedicated to my work.

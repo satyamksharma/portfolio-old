@@ -11,13 +11,13 @@ const Skills = () => {
         >
             <h2
                 className='section__title'
-                data-aos='fade-right'
+                data-aos='zoom-out-up'
             >
                 Skills
             </h2>
             <span
                 className='section__subtitle'
-                data-aos='fade-right'
+                data-aos='zoom-out-up'
             >
                 My technical level
             </span>

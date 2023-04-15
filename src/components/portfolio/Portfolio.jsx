@@ -78,13 +78,13 @@ const Portfolio = () => {
         >
             <h2
                 className='section__title'
-                data-aos='fade-right'
+                data-aos='zoom-out-up'
             >
                 Portfolio
             </h2>
             <span
                 className='section__subtitle'
-                data-aos='fade-right'
+                data-aos='zoom-out-down'
             >
                 My recent work
             </span>

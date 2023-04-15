@@ -18,13 +18,13 @@ const Contact = () => {
         >
             <h2
                 className='section__title'
-                data-aos='fade-right'
+                data-aos='zoom-in-up'
             >
                 Get in Touch!
             </h2>
             <span
                 className='section__subtitle'
-                data-aos='fade-right'
+                data-aos='zoom-in-up'
             >
                 Contact Me
             </span>
@@ -33,7 +33,7 @@ const Contact = () => {
                 <div className='contact__content'>
                     <h3
                         className='contact__title'
-                        data-aos='fade-right'
+                        data-aos='zoom-out-up'
                     >
                         Talk to me
                     </h3>
@@ -41,7 +41,7 @@ const Contact = () => {
                     <div className='contact__info'>
                         <div
                             className='contact__card'
-                            data-aos='fade-right'
+                            data-aos='zoom-out-up'
                         >
                             <i className='bx bx-mail-send contact__card-icon'></i>
                             <h3 className='contact__card-title'>Email</h3>
@@ -57,7 +57,7 @@ const Contact = () => {
                         </div>
                         <div
                             className='contact__card'
-                            data-aos='fade-right'
+                            data-aos='zoom-out-up'
                         >
                             <i className='bx bxl-whatsapp contact__card-icon'></i>
                             <h3 className='contact__card-title'>WhatsApp</h3>
@@ -73,7 +73,7 @@ const Contact = () => {
                         </div>
                         <div
                             className='contact__card'
-                            data-aos='fade-right'
+                            data-aos='zoom-out-up'
                         >
                             <i className='bx bxl-messenger contact__card-icon'></i>
                             <h3 className='contact__card-title'>Messenger</h3>
@@ -92,7 +92,7 @@ const Contact = () => {
                 <div className='contact__content'>
                     <h3
                         className='contact__title'
-                        data-aos='fade-left'
+                        data-aos='zoom-out-up'
                     >
                         Write me your Idea
                     </h3>
@@ -104,7 +104,7 @@ const Contact = () => {
                     >
                         <div
                             className='contact__form-div'
-                            data-aos='fade-left'
+                            data-aos='zoom-out-up'
                         >
                             <label className='contact__form-tag'>Name</label>
                             <input
@@ -117,7 +117,7 @@ const Contact = () => {
 
                         <div
                             className='contact__form-div'
-                            data-aos='fade-left'
+                            data-aos='zoom-out-up'
                         >
                             <label className='contact__form-tag'>Email</label>
                             <input
@@ -130,7 +130,7 @@ const Contact = () => {
 
                         <div
                             className='contact__form-div contact__form-area'
-                            data-aos='fade-left'
+                            data-aos='zoom-out-up'
                         >
                             <label className='contact__form-tag'>Message</label>
                             <textarea
@@ -144,7 +144,7 @@ const Contact = () => {
                         <button
                             class='bt'
                             id='bt'
-                            data-aos='fade-left'
+                            data-aos='zoom-out-up'
                         >
                             <span
                                 class='msg'

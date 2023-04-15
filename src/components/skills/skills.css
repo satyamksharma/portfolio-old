@@ -51,6 +51,9 @@
 }
 
 /*=============== BREAKPOINTS ===============*/
+/* For Extra Large devices */
+@media screen and (max-width: 1260px) {
+}
 /* For large screen devices */
 @media screen and (max-width: 992px) {
     .skills__container {

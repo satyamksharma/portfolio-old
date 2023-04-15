@@ -4,7 +4,7 @@ const Technologies = () => {
     return (
         <div
             className='skills__content'
-            data-aos='zoom-in-left'
+            data-aos='zoom-in'
         >
             <h3 className='skills__title'>Technologies</h3>
 

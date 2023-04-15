@@ -1,5 +1,5 @@
 .header {
-    width: 100%;
+    width: 100vw;
     position: fixed;
     top: 0;
     left: 0;
@@ -23,12 +23,12 @@
 
 .nav__logo {
     font-family: "Pacifico", cursive;
-    font-size: var(--h1-font-size);
+    font-size: var(--big-name-size);
 }
 
 .nav__list {
     display: flex;
-    column-gap: 2rem;
+    column-gap: 2.5rem;
 }
 
 .nav__link {
@@ -54,6 +54,13 @@
 }
 
 /*=============== BREAKPOINTS ===============*/
+
+/* For Extra Large Devices */
+@media screen and (max-width: 1260px) {
+    .nav__logo {
+        font-size: var(--h1-font-size);
+    }
+}
 
 /* For medium screen devices */
 @media screen and (max-width: 768px) {
