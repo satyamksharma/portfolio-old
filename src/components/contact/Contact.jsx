@@ -18,13 +18,13 @@ const Contact = () => {
         >
             <h2
                 className='section__title'
-                data-aos='zoom-in-up'
+                data-aos='zoom-out-up'
             >
                 Get in Touch!
             </h2>
             <span
                 className='section__subtitle'
-                data-aos='zoom-in-up'
+                data-aos='zoom-out-down'
             >
                 Contact Me
             </span>
@@ -50,6 +50,7 @@ const Contact = () => {
                             <a
                                 href='mailto:ksatyam433@gmail.com.com'
                                 className='contact__button'
+                                target='__blank'
                             >
                                 Write me{" "}
                                 <i className='bx bx-right-arrow-alt contact__button-icon'></i>
@@ -66,6 +67,7 @@ const Contact = () => {
                             <a
                                 href='https://api.whatsapp.com/send?phone=918987519442&text=Hi%20there,%20I%20want%20to%20talk%20to%20you'
                                 className='contact__button'
+                                target='__blank'
                             >
                                 Write me{" "}
                                 <i className='bx bx-right-arrow-alt contact__button-icon'></i>
@@ -75,13 +77,14 @@ const Contact = () => {
                             className='contact__card'
                             data-aos='zoom-out-up'
                         >
-                            <i className='bx bxl-messenger contact__card-icon'></i>
-                            <h3 className='contact__card-title'>Messenger</h3>
-                            <span className='contact__card-data'>Satyamkumar9980.fb123</span>
+                            <i class='bx bxl-instagram contact__card-icon'></i>
+                            <h3 className='contact__card-title'>Instagram</h3>
+                            <span className='contact__card-data'>satyaa___</span>
 
                             <a
-                                href='htttps://m.me/Satyamkumar9980'
+                                href='https://www.instagram.com/satyaa___/'
                                 className='contact__button'
+                                target='__blank'
                             >
                                 Write me{" "}
                                 <i className='bx bx-right-arrow-alt contact__button-icon'></i>

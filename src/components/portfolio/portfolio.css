@@ -17,9 +17,9 @@
 }
 
 .portfolio__nav-item a {
-    font-size: var(--h3-font-size);
+    font-size: var(--normal-font-size);
     display: inline-block;
-    margin: 0 1.5rem;
+    margin: 0.2rem 1.5rem;
 }
 .portfolio__nav-item a:hover {
     color: var(--primary-color);

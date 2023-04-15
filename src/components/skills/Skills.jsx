@@ -17,7 +17,7 @@ const Skills = () => {
             </h2>
             <span
                 className='section__subtitle'
-                data-aos='zoom-out-up'
+                data-aos='zoom-out-down'
             >
                 My technical level
             </span>
