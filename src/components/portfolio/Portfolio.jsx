@@ -116,17 +116,17 @@ const Portfolio = () => {
             <div className='portfolio__container container grid'>
                 {data.map((d) => (
                     <div
-                        class='proj__card'
+                        className='proj__card'
                         style={{ backgroundImage: `url(${d.img})` }}
                         loading='lazy'
                         data-aos='zoom-in'
                     >
-                        <div class='project__content'>
-                            <div class='proj__links'>
+                        <div className='project__content'>
+                            <div className='proj__links'>
                                 <a
                                     href={d.ghubLink}
                                     target='_blank '
-                                    class='proj__link github'
+                                    className='proj__link github'
                                 >
                                     <svg
                                         xmlns='http://www.w3.org/2000/svg'
@@ -143,7 +143,7 @@ const Portfolio = () => {
                                 <a
                                     href={d.websiteLink}
                                     target='_blank '
-                                    class='proj__link website'
+                                    className='proj__link website'
                                 >
                                     <svg
                                         xmlns='http://www.w3.org/2000/svg'
@@ -157,9 +157,9 @@ const Portfolio = () => {
                                     </svg>
                                 </a>
                             </div>
-                            <div class='proj__info'>
-                                <div class='proj__name'>{d.name}</div>
-                                <div class='proj__desc'>{d.description}</div>
+                            <div className='proj__info'>
+                                <div className='proj__name'>{d.name}</div>
+                                <div className='proj__desc'>{d.description}</div>
                                 <div className='proj__tech'>
                                     {d.tech.map((t) => (
                                         <img src={t} />
@@ -167,7 +167,7 @@ const Portfolio = () => {
                                 </div>
                             </div>
                         </div>
-                        <div class='proj__card__blur'></div>
+                        <div className='proj__card__blur'></div>
                     </div>
                 ))}
             </div>

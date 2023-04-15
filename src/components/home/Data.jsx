@@ -101,13 +101,13 @@ const Data = () => {
                 data-aos='zoom-in-right'
             >
                 <a
-                    class='fancy'
+                    className='fancy'
                     href='#contact'
                 >
-                    <span class='top-key'></span>
-                    <span class='button__text'>Say Hello</span>
-                    <span class='bottom-key-1'></span>
-                    <span class='bottom-key-2'></span>
+                    <span className='top-key'></span>
+                    <span className='button__text'>Say Hello</span>
+                    <span className='bottom-key-1'></span>
+                    <span className='bottom-key-2'></span>
                 </a>
             </div>
         </div>

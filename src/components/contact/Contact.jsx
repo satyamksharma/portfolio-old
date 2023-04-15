@@ -77,7 +77,7 @@ const Contact = () => {
                             className='contact__card'
                             data-aos='zoom-out-up'
                         >
-                            <i class='bx bxl-instagram contact__card-icon'></i>
+                            <i className='bx bxl-instagram contact__card-icon'></i>
                             <h3 className='contact__card-title'>Instagram</h3>
                             <span className='contact__card-data'>satyaa___</span>
 
@@ -145,12 +145,12 @@ const Contact = () => {
                             ></textarea>
                         </div>
                         <button
-                            class='bt'
+                            className='bt'
                             id='bt'
                             data-aos='zoom-out-up'
                         >
                             <span
-                                class='msg'
+                                className='msg'
                                 id='msg'
                             ></span>
                             SEND

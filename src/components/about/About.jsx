@@ -1,6 +1,7 @@
 import React from "react";
 import "./about.css";
-import AboutImg from "../../assets/about.png";
+import AboutImgDark from "../../assets/about-Img-dark.png";
+import AboutImgLight from "../../assets/about-Img-Light.png";
 import CV from "../../assets/Resume.pdf";
 import Info from "./Info";
 
@@ -26,7 +27,7 @@ const About = () => {
                 <div className='about__img__container'>
                     <div className='about__img_box'>
                         <img
-                            src={AboutImg}
+                            src={AboutImgLight}
                             alt='aboutImg'
                             className='about__img'
                             loading='lazy'
