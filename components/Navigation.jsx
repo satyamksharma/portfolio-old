@@ -1,19 +1,44 @@
+"use client";
+
 import Link from "next/link";
+import { usePathname } from "next/navigation";
+import styles from "./Navigation.module.css";
 
 function Navigation() {
+    const pathname = usePathname();
     return (
-        <ul>
+        <ul className={styles.nav_ul}>
             <li>
-                <Link href='/about'>About</Link>
+                <Link
+                    className={pathname === "/about" ? styles.active : styles.nav_li}
+                    href='/about'
+                >
+                    About
+                </Link>
             </li>
             <li>
-                <Link href='/projects'>Projects</Link>
+                <Link
+                    className={pathname === "/projects" ? styles.active : styles.nav_li}
+                    href='/projects'
+                >
+                    Projects
+                </Link>
             </li>
             <li>
-                <Link href='/qualification'>Qualification</Link>
+                <Link
+                    className={pathname === "/qualification" ? styles.active : styles.nav_li}
+                    href='/qualification'
+                >
+                    Qualifications
+                </Link>
             </li>
             <li>
-                <Link href='/contact'>Contact</Link>
+                <Link
+                    className={pathname === "/contact" ? styles.active : styles.nav_li}
+                    href='/contact'
+                >
+                    Contact
+                </Link>
             </li>
         </ul>
     );
