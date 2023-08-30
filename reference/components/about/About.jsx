@@ -54,10 +54,10 @@ const About = () => {
                         href={CV}
                         target='_blank'
                     >
-                        <button class='cv__download'>
+                        <button className='cv__download'>
                             {" "}
                             Download CV
-                            <div class='cv__icon'>
+                            <div className='cv__icon'>
                                 <svg
                                     fill='#000000'
                                     height='245px'
