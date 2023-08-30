@@ -5,10 +5,7 @@ import Header from "../../components/Header";
 
 const Home = () => {
     return (
-        <main
-            className='home section'
-            id='home'
-        >
+        <main className='home section'>
             <Header />
             <div className='home__container container grid'>
                 <div className='home__content grid'>

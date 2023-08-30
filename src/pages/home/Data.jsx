@@ -102,7 +102,7 @@ const Data = () => {
             >
                 <NavLink
                     className='fancy'
-                    href='/contact'
+                    to='/contact'
                 >
                     <span className='top-key'></span>
                     <span className='button__text'>Say Hello</span>
