@@ -1,7 +1,7 @@
 import "./home.css";
 import Social from "./Social";
 import Data from "./Data";
-import Header from "../../components/Header";
+import Header from "../../components/header/Header";
 
 const Home = () => {
     return (

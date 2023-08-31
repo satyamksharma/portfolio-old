@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
+    "@iconscout/unicons": "^4.0.8",
     "emailjs": "^4.0.2",
     "framer-motion": "^10.16.1",
     "react": "^18.2.0",

@@ -47,7 +47,10 @@ const Data = () => {
                                 animate='visible'
                             >
                                 {text1.split("").map((letter, id) => (
-                                    <motion.span variants={item}>
+                                    <motion.span
+                                        variants={item}
+                                        key={id}
+                                    >
                                         {letter === " " ? (
                                             <span>&nbsp;</span> // add a non-breaking space for spaces
                                         ) : (
@@ -69,7 +72,10 @@ const Data = () => {
                                 animate='visible'
                             >
                                 {text2.split("").map((letter, id) => (
-                                    <motion.span variants={item}>
+                                    <motion.span
+                                        variants={item}
+                                        key={id}
+                                    >
                                         {letter === " " ? (
                                             <span>&nbsp;</span> // add a non-breaking space for spaces
                                         ) : (

@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "./header.css";
 import { NavLink } from "react-router-dom";
+import Darkmode from "../darkmode/Darkmode";
 
 const Header = () => {
     // ----------For Toggle Menu--------
@@ -79,6 +80,7 @@ const Header = () => {
                 >
                     <i className='uil uil-apps'></i>
                 </div>
+                <Darkmode />
             </nav>
         </header>
     );

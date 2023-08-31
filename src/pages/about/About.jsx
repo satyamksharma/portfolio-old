@@ -3,7 +3,7 @@ import "./about.css";
 import AboutImgLight from "../../assets/about-Img-Light.png";
 import CV from "../../assets/Resume.pdf";
 import Info from "./Info";
-import Header from "../../components/Header";
+import Header from "../../components/header/Header";
 function About() {
     return (
         <>

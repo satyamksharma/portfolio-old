@@ -16,13 +16,14 @@
     margin-bottom: var(--mb-3);
 }
 
-.portfolio__nav-item a {
+.portfolio__nav-item button {
     font-size: var(--normal-font-size);
     display: inline-block;
     margin: 0.2rem 1.5rem;
-}
-.portfolio__nav-item a:hover {
+    background: transparent;
     color: var(--primary-color);
+}
+.portfolio__nav-item button:hover {
     border-bottom: 1px solid var(--title-color-dark);
 }
 
