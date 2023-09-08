@@ -1,7 +1,7 @@
 import "./skills.css";
 import Languages from "./Languages";
 import Technologies from "./Technologies";
-import Header from "../../components/Header";
+import Header from "../../components/header/Header";
 import Qualification from "../qualification/Qualification";
 
 const Skills = () => {

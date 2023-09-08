@@ -1,79 +1,11 @@
 import { useState } from "react";
 import Header from "../../components/header/Header";
 import "./projects.css";
+import data from "../../data/data";
 
 const Projects = () => {
     const [menu, setMenu] = useState("web");
 
-    const data = [
-        {
-            id: 1,
-            name: "Vibe",
-            type: "web",
-            img: "https://github.com/satyamksharma/codeclause/blob/master/Task3_MusicApp/Screenshot%20from%202023-03-31%2016-17-50.png?raw=true",
-            description: "An online Music streaming web app",
-            ghubLink: "https://github.com/satyamksharma/codeclause/tree/master/Task3_MusicApp",
-            websiteLink: "https://my-vibe.vercel.app/",
-            tech: [
-                "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
-                "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
-            ],
-        },
-        {
-            id: 2,
-            name: "Orderly",
-            type: "python",
-            img: "https://raw.githubusercontent.com/satyamksharma/Orderly/main/Screenshot%20from%202023-03-21%2001-29-26.png",
-            description: "A food ordering website with multiple dishes",
-            ghubLink: "https://github.com/satyamksharma/Orderly",
-            websiteLink: "https://orderly-foods.netlify.app/",
-            tech: [
-                "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
-                "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
-            ],
-        },
-        {
-            id: 3,
-            name: "Metric Master",
-            type: "web",
-            img: "https://raw.githubusercontent.com/satyamksharma/codeclause/master/Task-2_Unit_Converter/Screenshot%20from%202023-03-21%2000-51-11.png",
-            description: "A Unit converter app with a calculator",
-            ghubLink:
-                "https://github.com/satyamksharma/codeclause/tree/master/Task-2_Unit_Converter",
-            websiteLink: "https://metricmaster.netlify.app/",
-            tech: [
-                "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
-                "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
-            ],
-        },
-        {
-            id: 4,
-            name: "Cash Track",
-            type: "web",
-            img: "https://raw.githubusercontent.com/satyamksharma/Expense-Tracker/main/Screenshot%20from%202023-03-21%2001-44-44.png",
-            description: "An Expense Tracker app to record your expenses",
-            ghubLink: "https://github.com/satyamksharma/Expense-Tracker",
-            websiteLink: "https://cash-track.netlify.app/",
-            tech: [
-                "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
-                "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
-            ],
-        },
-
-        {
-            id: 5,
-            name: "Dice Game",
-            type: "others",
-            img: "https://github.com/satyamksharma/2-dice-game/blob/main/Screenshot%20from%202023-03-31%2016-26-48.png?raw=true",
-            description: "A two-player dice rolling game",
-            ghubLink: "https://github.com/satyamksharma/2-dice-game",
-            websiteLink: "https://2dice-game.vercel.app/",
-            tech: [
-                "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg",
-                "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
-            ],
-        },
-    ];
     return (
         <>
             <Header />

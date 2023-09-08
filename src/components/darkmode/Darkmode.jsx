@@ -8,7 +8,7 @@ const Darkmode = () => {
     const darkTheme = "dark";
     let theme;
 
-    const [isChecked, setIsChecked] = useState(true);
+    const [isChecked, setIsChecked] = useState(false);
 
     const handleCheckboxChange = () => {
         setIsChecked(!isChecked);
